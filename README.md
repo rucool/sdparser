@@ -12,9 +12,9 @@ The dialog from each surfacing is written to a text file and contains informatio
 
 This python package contains a single class [SurfaceDialogParser](). The parser currently contains 2 parser methods:
 
-1. parse_dialog_file(dialog_file): Parses the dialog_file and returns a list of dictionaries with one entry per parsed
+1. __parse_dialog_file(dialog_file)__: Parses the dialog_file and returns a list of dictionaries with one entry per parsed
     paragraph.
-2. parse_dialog_sensors(dialog_file): Parses the dialog_file and returns a list of dictionaries with one entry per
+2. __parse_dialog_sensors(dialog_file)__: Parses the dialog_file and returns a list of dictionaries with one entry per
     sensor.
 
 In addition to these 2 methods, the instance also stores all information on the matches obtained by each regular expression.
